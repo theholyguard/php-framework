@@ -13,5 +13,10 @@
         "path": "/contact",
         "methods": ["GET"],
         "controller": "FetchContactController"
+    },
+    {
+        "path": "/contact/specific",
+        "methods": ["GET"],
+        "controller": "FetchSpecificContactController"
     }
 ]
