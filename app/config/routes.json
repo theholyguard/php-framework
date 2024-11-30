@@ -18,5 +18,10 @@
         "path": "/contact/specific",
         "methods": ["GET"],
         "controller": "FetchSpecificContactController"
+    },
+    {
+        "path": "/contact/specific",
+        "methods": ["PATCH"],
+        "controller": "UpdateContactController"
     }
 ]
